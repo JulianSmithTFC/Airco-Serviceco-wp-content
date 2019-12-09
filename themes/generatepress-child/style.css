@@ -1,0 +1,915 @@
+/*
+Theme Name: GeneratePress Child
+Theme URI: https://generatepress.com
+Template: generatepress
+Author: Tom Usborne
+Author URI: https://tomusborne.com
+Description: GeneratePress is a lightweight WordPress theme built with a focus on speed and usability. Performance is important to us, which is why a fresh GeneratePress install adds less than 15kb (gzipped) to your page size. We take full advantage of the new block editor (Gutenberg), which gives you more control over creating your content. If you use page builders, GeneratePress is the right theme for you. It is completely compatible with all major page builders, including Beaver Builder and Elementor. Thanks to our emphasis on WordPress coding standards, we can boast full compatibility with all well-coded plugins, including WooCommerce. GeneratePress is fully responsive, uses valid HTML/CSS and is translated into over 25 languages by our amazing community of users. A few of our many features include microdata integration, 9 widget areas, 5 navigation locations, 5 sidebar layouts, dropdown menus (click or hover) and navigation color presets. Learn more and check out our powerful premium version at https://generatepress.com
+Tags: two-columns,three-columns,one-column,right-sidebar,left-sidebar,footer-widgets,blog,e-commerce,flexible-header,full-width-template,buddypress,custom-header,custom-background,custom-menu,custom-colors,sticky-post,threaded-comments,translation-ready,rtl-language-support,featured-images,theme-options
+Version: 2.3.2.1571797211
+Updated: 2019-10-23 02:20:11
+
+*/
+
+/*---------------- About Page ----------------*/
+
+/*Block One*/
+.about-blockOne-container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #ffffff;
+}
+.about-blockOne-containerLeft{
+
+}
+.about-blockOne-containerRight{
+
+}
+.about-blockOne-image{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.about-blockOne-header{
+    font-weight: bolder;
+    color: #000000;
+}
+.about-blockOne-bodyText{
+    color: #919191 !important;
+}
+.about-blockOne-iconContainer{
+    background: #2e3192;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.about-blockOne-wcuHeader{
+    font-weight: bolder;
+    font-size: 18px !important;
+    margin-bottom: 5px !important;
+}
+.about-blockOne-wcuSubheader{
+    color: #919191;
+}
+.about-blockOne-icons{
+    color: #ffffff;
+    margin: 15px 15px 15px 15px;
+}
+
+/*Block Two*/
+.about-blockTwo-container{
+    background: #f1f1f1;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.about-blockTwo-header{
+    font-weight: bolder;
+    color: #000000;
+    text-align: center;
+}
+.about-blockTwo-rows{
+
+}
+.about-blockTwo-reviewContainer{
+    background: #ffffff;
+    padding: 15px 15px 15px 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-blockTwo-reviewService{
+    color: #164ea0;
+}
+.about-blockTwo-reviews{
+    color: #919191;
+}
+.about-blockTwo-reviewName{
+    color: #000000;
+}
+
+/*Block Three*/
+.about-blockThree-container{
+    background: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.about-blockThree-header{
+    font-weight: bolder;
+    color: #000000;
+    text-align: center;
+}
+.about-blockThree-rows{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.about-blockThree-teamContainers{
+
+}
+.about-blockThree-cards{
+    background: #2e3192;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about-blockThree-teamImage{
+
+}
+.about-blockThree-teamNames{
+    color: #ffffff;
+    font-weight: bold !important;
+    text-align: center;
+    margin-bottom: 8px !important;
+}
+.about-blockThree-teamTitles{
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+}
+
+/*Block Four*/
+.about-blockFour-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-position: center;
+    background-size: cover;
+}
+.about-blockFour-header{
+    color: #ffffff;
+    font-size: 18px !important;
+    margin-bottom: 10px !important;
+}
+.about-blockFour-subheader{
+    color: #ffffff;
+    font-weight: bolder !important;
+    font-size: 25px !important;
+}
+.about-blockFour-button{
+    background: #ea131a !important;
+    color: #ffffff !important;
+    margin-top: 30px;
+}
+
+/*---------------- Home Page ----------------*/
+
+/*Block One*/
+.home-blockOne-container{
+    margin-top: -130px;
+}
+.home-blockOne-containers{
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.home-blockOne-images{
+    max-height: 180px;
+    margin-bottom: 10px;
+}
+.home-blockOne-headings{
+    font-weight: 500;
+}
+.home-blockOne-bodyText{
+
+}
+.home-blockOne-buttons{
+    background-color: #ed161e !important;
+    color: #ffffff !important;
+    font-weight: bolder;
+}
+
+/*Block Two*/
+.home-blockTwo-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.home-blockTwo-heading{
+    font-size: 18px !important;
+}
+.home-blockTwo-subheading{
+    font-size: 35px !important;
+    font-weight: 700 !important;
+}
+.home-blockTwo-hrline{
+    background-color: #2257a6 !important;
+    height: 5px !important;
+    max-width: 80px !important;
+}
+.home-blockTwo-containers{
+
+}
+.home-blockTwo-image{
+
+}
+.home-blockTwo-iconContainers{
+    background: #2e3192;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.home-blockTwo-icons{
+    color: #ffffff;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+.home-blockTwo-headings{
+    font-weight: 600;
+}
+.home-blockTwo-bodyTexts{
+    color: #84898d;
+}
+
+/*Block Three*/
+.home-blockThree-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-size: cover;
+    background-position: center;
+}
+.home-blockThree-containerRight{
+    border-left: #ffffff;
+    border-left-style: solid;
+    border-left-width: 2px;
+    padding-left: 30px;
+}
+.home-blockThree-heading{
+    color: #ffffff;
+    font-weight: bolder !important;
+    font-size: 45px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.home-blockThree-subheading{
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.home-blockThree-bodyText{
+    color: #ffffff;
+}
+.home-blockThree-button{
+    background: #ed161e !important;
+    color: #ffffff !important;
+    font-weight: bolder !important;
+}
+
+/*Block Four*/
+.home-blockFour-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.home-blockFour-heading{
+    font-size: 35px !important;
+    font-weight: 700 !important;
+}
+.home-blockFour-bodyText{
+    color: #282828;
+}
+.home-blockFour-containers{
+    min-height: 320px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.home-blockFour-innercontainers{
+    background: #282828;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.home-blockFour-headings{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 25px;
+}
+.home-blockFour-subheadings{
+    color: #ffffff !important;
+    font-size: 14px;
+}
+.home-blockFour-buttons{
+    background: #ed161e !important;
+    color: #ffffff !important;
+    font-size: 12px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+
+/*---------------- Our Services Page ----------------*/
+
+/*Block One*/
+.ourServices-blockOne-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.ourServices-blockOne-heading{
+    color: #000000;
+    font-weight: bolder !important;
+    margin-bottom: 20px !important;
+}
+.ourServices-blockOne-bodyText{
+    color: #000000 !important;
+}
+
+/*---------------- Contact Us Page ----------------*/
+
+.contact-blockOne-alert-container{
+    padding-top: 30px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+/*Block One*/
+.contact-blockOne-container{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    background: #2e3192;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact-blockOne-containers{
+
+}
+.contact-blockOne-iconContainers{
+    border: #8a8a8a;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 80px;
+}
+.contact-blockOne-icons{
+    color: #ffffff;
+    margin: 20px 20px 20px 20px;
+}
+.contact-blockOne-headings{
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact-blockOne-subheadings{
+    color: #ffffff;
+}
+
+/*Block Two*/
+.contact-blockTwo-container{
+
+}
+.contact-blockTwo-containerLeft{
+    margin-bottom: 60px;
+    border: #bdbdbd;
+    border-style: solid;
+    border-width: 3px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.contact-blockTwo-containerRight{
+    margin-bottom: 60px;
+    border: #000000;
+    border-style: solid;
+    border-width: 3px;
+    padding: 25px 25px 25px 25px;
+}
+.contact-blockTwo-formHeading{
+    color: #000000;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+.contact-blockTwo-label{
+    margin-bottom: 5px;
+}
+.contact-blockTwo-formInputs{
+    background: #e6eef2 !important;
+}
+.contact-blockTwo-formButton{
+    background: #ed1b24 !important;
+    color: #ffffff !important;
+}
+.contact-blockTwo-cuponHeading{
+    font-weight: 900;
+    font-size: 22px;
+}
+.contact-blockTwo-cuponHeadingMiddel{
+    color: #ed1c24;
+    font-size: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.contact-blockTwo-cuponSubheading{
+    font-weight: 700;
+}
+.contact-blockTwo-cuponBodyText{
+
+}
+.contact-blockTwo-cuponList{
+    text-align: left;
+}
+.contact-blockTwo-cuponCalltoAction{
+    color: #ed1c24;
+    font-weight: 700;
+}
+
+/*---------------- Manufactures Page ----------------*/
+
+/*Block One*/
+.manufactures-blockOne-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.manufactures-blockOne-logo{
+    max-height: 100px;
+    margin-bottom: 20px;
+}
+.manufactures-blockOne-heading{
+    color: #000000;
+    font-weight: 700;
+}
+.manufactures-blockOne-bodyText{
+    color: #000000;
+}
+.manufactures-blockOne-cards{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.manufactures-blockOne-cardImage{
+    background-size: cover;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.manufactures-blockOne-cardHeading{
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px !important;
+    margin-bottom: 5px !important;
+}
+.manufactures-blockOne-cardSubheading{
+
+}
+
+/*---------------- Projects Post ----------------*/
+
+/*Block One*/
+.projects-blockOne-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.projects-blockOne-containerLeft{
+
+}
+.projects-blockOne-containerRight{
+
+}
+.projects-blockOne-images{
+    max-height: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.projects-blockOne-iconContainers{
+    border-radius: 50%;
+    border: #bdbdbd !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+
+    width: 40px;
+    height: 40px;
+
+    margin-bottom: 10px;
+}
+.projects-blockOne-icons{
+    color: #2e3192;
+    margin-top: 12px;
+}
+.projects-blockOne-headers{
+    font-size: 18px !important;
+    margin-bottom: 5px !important;
+    font-weight: bolder !important;
+}
+.projects-blockOne-subheaders{
+    font-size: 14px !important;
+}
+.projects-queryPost-containers{
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+.projects-queryPost-images{
+
+}
+.projects-queryPost-headers{
+    color: #000000 !important;
+    margin-bottom: 8px !important;
+    font-weight: 700;
+}
+.projects-queryPost-subheaders{
+    font-size: 12px;
+    margin-bottom: 5px !important;
+}
+.projects-queryPost-buttons{
+    border-bottom-color: #ea131a !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 2px !important;
+    font-weight: bold !important;
+    color: #000000 !important;
+    font-size: 10px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+.projects-queryPost-hrline{
+    background: #8a8a8a;
+    border-width: 2px;
+
+}
+
+
+/*---------------- Services Post ----------------*/
+
+/*Block One*/
+.services-blockOne-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.services-blockOne-heading{
+    color: #000000;
+    font-weight: bolder !important;
+    margin-bottom: 20px !important;
+}
+.services-blockOne-image{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.services-blockOne-bodyText{
+    margin-top: 15px;
+    color: #000000;
+}
+.services-blockOne-list{
+    color: #000000;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.services-blockOne-listIcons{
+    color: #ea131a;
+}
+
+
+
+/*---------------- Header ----------------*/
+.headerRegular-top-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.headerRegular-top-logo{
+    max-height: 70px;
+}
+.headerRegular-top-menu{
+    margin-top: 20px;
+    margin-left: 0px !important;
+    margin-bottom: 20px;
+}
+.headerRegular-top-menuItems{
+    color: #000000 !important;
+}
+.headerRegular-top-menuItemsLink{
+    color: #000000 !important;
+}
+.headerRegular-top-callToAction{
+    margin-bottom: 5px;
+    font-weight: bolder !important;
+}
+.headerRegular-top-icon{
+    color: #ed1b22;
+}
+.headerRegular-top-phone{
+    margin-bottom: 5px;
+    font-weight: bold !important;
+}
+
+/*Regular Header*/
+.headerRegular-container{
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-position: center;
+    background-size: cover;
+}
+.headerRegular-heading{
+    color: #ffffff;
+    font-weight: bold;
+}
+.headerRegular-breadcrumbs{
+    color: #ffffff !important;
+}
+
+/*Home Header*/
+.headerHome-container{
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    padding-top: 80px;
+    padding-bottom: 160px;
+}
+.headerHome-heading{
+    color: #ffffff;
+    font-weight: bolder !important;
+    font-size: 25px !important;
+}
+.headerHome-subheading{
+    color: #ffffff;
+    font-weight: 600 !important;
+}
+.headerHome-bodytext{
+    color: #ffffff;
+}
+.headerHome-btnLeft{
+    background-color: #ed161e;
+    color: #ffffff !important;
+}
+.headerHome-btnRight{
+    border: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+    color: #ffffff !important;
+}
+
+/*---------------- Footer ----------------*/
+.footer-top-container{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-size: cover;
+    background-position: center;
+}
+.footer-top-heading{
+    text-align: center;
+    margin-bottom: 0px !important;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.footer-middel-container{
+    background: #282828;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-bottom-container{
+    background: #0e0e0e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-bottom-heading{
+    color: #ffffff;
+    margin-bottom: 0px !important;
+}
+
+
+/*---------------- Widget: Services Menu ----------------*/
+.widget-servicesMenu-container{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.widget-servicesMenu-link{
+    border: #f1f1f1;
+    border-style: solid;
+    border-width: 3px;
+    color: #8a8a8a !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.widget-servicesMenu-linkActive{
+    color: #ffffff !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #2e3192;
+}
+
+/*---------------- Widget: Contact Us ----------------*/
+.widget-contactUs-container{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.widget-contactUs-heading{
+    color: #333333 !important;
+    font-weight: 600 !important;
+    font-size: 28px;
+    margin-bottom: 10px !important;
+}
+.widget-contactUs-listitems{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.widget-contactUs-icons{
+    color: #2e3192;
+}
+
+/*---------------- Widget: Custom Coupon ----------------*/
+.widget-custom-coupon-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #2e3192;
+}
+.widget-custom-coupon-heading{
+    color: #ffffff;
+    font-weight: 500;
+}
+.widget-custom-coupon-headingMiddel{
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 45px;
+}
+.widget-custom-coupon-subheading{
+    color: #ffffff;
+}
+.widget-custom-coupon-button{
+    background: #ed1c24 !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+/*---------------- Widget: Footer Contact Us ----------------*/
+.widget-footer-contactUs-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.widget-footer-contactUs-heading{
+    color: #ffffff;
+}
+.widget-footer-contactUs-listitems{
+    color: #b0b0b0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.widget-footer-contactUs-icons{
+    color: #ed151d;
+}
+
+/*---------------- Widget: Footer Quick Links ----------------*/
+.widget-footer-quickLinks-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.widget-footer-quickLinks-heading{
+    color: #ffffff;
+}
+.widget-footer-quickLinks-listitems{
+    font-size: 14px !important;
+    margin-bottom: 14px;
+}
+.widget-footer-quickLinks-icons{
+    color: #ed151d;
+}
+.widget-footer-quickLinks-links{
+    color: #b0b0b0 !important;
+}
+
+/*---------------- Widget: Footer Coupon ----------------*/
+.widget-footer-coupon-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: #b0b0b0;
+    border-width: 2px;
+    border-style: dashed;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.widget-footer-coupon-heading{
+    color: #ffffff;
+}
+.widget-footer-coupon-headingMiddel{
+    color: #ec161d;
+    font-weight: bolder;
+    font-size: 45px;
+}
+.widget-footer-coupon-subheading{
+    color: #ffffff;
+}
+.widget-footer-coupon-button{
+    background: #ed1c24 !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+/*---------------- Popup: Coupon ----------------*/
+.popup-coupon-container{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.popup-coupon-heading{
+
+}
+.popup-coupon-leftcontainer{
+    background-position: center;
+    background-size: cover;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.popup-coupon-rightcontainer{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.popup-coupon-leftcontainerInner{
+    background: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.popup-coupon-left-logo{
+    max-height: 100px;
+    margin-bottom: 15px;
+}
+.popup-coupon-left-heading{
+    color: #000000;
+    font-weight: 700;
+    font-size: 25px;
+}
+.popup-coupon-left-list{
+    text-align: left;
+}
+.popup-coupon-left-listText{
+    color: #000000;
+}
+.popup-coupon-left-bottomHeading{
+    color: #000000;
+    font-weight: 700;
+}
+.popup-coupon-left-bottomSubheading{
+    color: #000000;
+    font-weight: 700;
+    font-size: 25px;
+}
+.popup-coupon-right-heading{
+    color: #000000;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 15px !important;
+}
+.popup-coupon-right-bodyText{
+
+}
+.popup-coupon-right-subheading{
+    color: #000000;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px !important;
+}
+.popup-coupon-right-buttonOne{
+    background: #ed1c24 !important;
+    color: #ffffff !important;
+    margin-bottom: 20px !important;
+    font-weight: 600 !important;
+    padding: 20px 20px 20px 20px !important;
+}
+.popup-coupon-right-buttonTwo{
+    background: #2e3192 !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    padding: 20px 20px 20px 20px !important;
+}
+.popup-coupon-closeButton{
+    background: #ed1c24 !important;
+    color: #ffffff !important;
+}
+
+
+.row.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-fix {
+    height: 100%;
+}
